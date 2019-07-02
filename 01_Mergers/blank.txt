@@ -1,1 +1,17 @@
-blank
+What we have learned:
+	1. Deep Learning
+		a. Adding a bias term
+		b. Changing the activation function
+			i. Sigmoid
+			ii. ReLu
+			iii. One-hot
+			iv. Softmax
+		c. Changing the optimizer
+			i. Cross Entropy
+			ii. GradientDescentOptimizer
+			iii. Adam
+		d. Varying the number of layers and nodes
+		
+	2. CNN
+	3. Modern CNN
+RNN (NLP/Bert)
