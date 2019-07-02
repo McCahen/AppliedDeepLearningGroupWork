@@ -1,0 +1,24 @@
+What we have learned:
+	1. Deep Learning
+		a. Adding a bias term
+		b. Changing the activation function
+			i. Sigmoid
+			ii. ReLU
+			iii. Leaky ReLU
+			iv. One-hot
+			v. Softmax
+			vi. tanh
+			vii. Maxout
+			viii. ELU
+		c. Changing the optimizer
+			i. GradientDescentOptimizer
+			ii. Adam
+		d. Changing loss function
+			i. Cross Entropy
+		e. Varying the number of layers and nodes
+		f. Random vs. zero initialization
+		g. Add Learning Rate Decay
+		h. Add Dropout
+	2. CNN
+	3. Modern CNN
+	4. RNN (NLP/Bert)
