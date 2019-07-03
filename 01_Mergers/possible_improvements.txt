@@ -19,6 +19,7 @@ What we have learned:
 		f. Random vs. zero initialization
 		g. Add Learning Rate Decay
 		h. Add Dropout
+		i. Normalize Data
 	2. CNN
 	3. Modern CNN
 	4. RNN (NLP/Bert)
