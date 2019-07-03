@@ -20,6 +20,7 @@ What we have learned:
 		g. Add Learning Rate Decay
 		h. Add Dropout
 		i. Normalize Data
+		j. Replace NaN by something like the mean (instead of dropping it)
 	2. CNN
 	3. Modern CNN
 	4. RNN (NLP/Bert)
