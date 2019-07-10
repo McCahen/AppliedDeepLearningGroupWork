@@ -21,6 +21,29 @@ What we have learned:
 		h. Add Dropout
 		i. Normalize Data
 		j. Replace NaN by something like the mean (instead of dropping it)
-	2. CNN
-	3. Modern CNN
-	4. RNN (NLP/Bert)
+
+	2. CNN - Convolutional Neural Network in Contrast to Dense Neural Networks (from slide 75)
+		a. Introduction to Tensorflow and Keras
+			i. Simplification of the code (choose the right neural network for your problem and how to make it behave. Familiarity with differential equations is no longer required)
+			ii. Transfer Learning 
+		b. Patches of Weights 
+			i. Same than above: doing a weighted sum, adding a bias and feeding the result through a nonlinear activation function
+			ii. Reduction of number of weights: Max-pooling
+		c. Stride
+		d. Improvements like above
+			i. e.g., Add Dropout
+
+	3. Modern CNN (from slide 21 in slide deck 3)
+		a. Inception Architecture
+		b. Deep Reinforment Learning
+			i. Hyperparameter Tuning
+			ii. Training hardware options on ML Engine
+			iii. Using Tensorboard for Visualization
+
+	4. RNN - Rrecurrent Neural Network (NLP/Bert, from slide deck 2)
+		a. Use a regular dense neural network with a single hidden layer. Make it recurrent by feeding the outputs of the hidden layer back as a portion of its inputs
+		b. Using the “activation(X.W+B)” 
+		c. Train RNN across time 
+		d. LSTM Networks (Long Short Term Memory Networks as a special kind of RNNs)
+		e. GRU (Gated Recurrent Unit) - similar to LSTM but uses 3 layers instead of 4
+		f. Language Model in Tensorflow (not interessting for our dataset)
